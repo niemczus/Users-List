@@ -13,6 +13,7 @@
 		32FD959E27B509CD00688958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FD959D27B509CD00688958 /* Assets.xcassets */; };
 		32FD95A127B509CD00688958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FD959F27B509CD00688958 /* LaunchScreen.storyboard */; };
 		32FD95A927B50AA500688958 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FD95A827B50AA500688958 /* UsersVC.swift */; };
+		32FD95CB27B649AB00688958 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FD95CA27B649AB00688958 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		32FD95A027B509CD00688958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32FD95A227B509CD00688958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32FD95A827B50AA500688958 /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		32FD95CA27B649AB00688958 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				32FD959D27B509CD00688958 /* Assets.xcassets */,
 				32FD959F27B509CD00688958 /* LaunchScreen.storyboard */,
 				32FD95A227B509CD00688958 /* Info.plist */,
+				32FD95CA27B649AB00688958 /* User.swift */,
 			);
 			path = "Users List";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FD95CB27B649AB00688958 /* User.swift in Sources */,
 				32FD959527B509CC00688958 /* AppDelegate.swift in Sources */,
 				32FD959727B509CC00688958 /* SceneDelegate.swift in Sources */,
 				32FD95A927B50AA500688958 /* UsersVC.swift in Sources */,
